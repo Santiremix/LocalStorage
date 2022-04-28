@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <ul class="lista">
+            <li>
+              <label class="nom">Nombre:</label>
+              <input type="text" id="nombre">
+            </li>
+            <li>
+              <label class="correo">Correo electrónico:</label>
+              <input type="email" id="mail">
+            </li>
+            <li>
+              <label class="msj">Mensaje:</label>
+              <textarea id="msg"></textarea>
+            </li>
+            <li>
+                <button id="btn" onclick="subir()" type="button">Guardar Datos</button>
+                <button onclick="borrar()" type="button">Borrar Storage</button>
+                <button id="write" type="button">Ver datos</button>
+                <button type="button" onclick="elegir()""  data-toggle="dropdown">Eliminar dato</button>
+
+            </li><br>
+        <div id="frase"></div><br>
+        <div id="texto"></div>
+        <div id="texto2"></div>
+        <div id="texto3"></div><br><br><br>
+        <div id="pres"></div>
+
+           
+    </form>
+
+<script src="./code.js"></script>    
+</body>
+</html>
